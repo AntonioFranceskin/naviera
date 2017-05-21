@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  bic: MyString
+  type_container: MyString
+  company: one
+  trip: one
+
+two:
+  bic: MyString
+  type_container: MyString
+  company: two
+  trip: two

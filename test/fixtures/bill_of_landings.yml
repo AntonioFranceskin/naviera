@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type_bl: MyString
+  container: one
+  client: one
+  company: one
+
+two:
+  type_bl: MyString
+  container: two
+  client: two
+  company: two

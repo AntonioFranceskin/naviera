@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  embarking_country: MyString
+  embarking_date: 2017-05-13
+  disembarking_country: MyString
+  disembarking_date: 2017-05-13
+  ship: one
+
+two:
+  embarking_country: MyString
+  embarking_date: 2017-05-13
+  disembarking_country: MyString
+  disembarking_date: 2017-05-13
+  ship: two

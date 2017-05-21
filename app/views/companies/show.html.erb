@@ -1,0 +1,27 @@
+<style>
+h1 { color: blue; text-decoration: underline; text-align: center}
+table, th, td {
+    border: 1px solid red;
+ }
+</style> 
+<h1>Companies</h1>
+<table>
+  <thead>
+    <tr>
+      <th>      Company Name</th>
+      <th>      Rif</th>
+      <th>      Status</th>
+      <th>      Tipo de Compania</th>
+<!--       <th colspan="2"> </th> -->
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+        <td><%=  @company.company_name %></td>
+        <td><%=  @company.rif %></td>
+        <td><%=  @company.status %></td>
+        <td><%=  @company.type_company %></td>
+      </tr>
+  </tbody>
+</table>

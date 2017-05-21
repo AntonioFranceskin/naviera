@@ -1,0 +1,27 @@
+<style>
+h1 { color: blue; text-decoration: underline; text-align: center}
+table, th, td {
+    border: 1px solid red;
+ }
+</style> 
+<h1>Clients</h1>
+<table>
+  <thead>
+    <tr>
+      <th>      Name</th>
+      <th>      LastName</th>      
+      <th>      Rif</th>
+      <th>      Tipo de Cliente</th>
+<!--       <th colspan="2"> </th> -->
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+        <td><%=  @client.name %></td>
+        <td><%=  @client.lastname %></td>        
+        <td><%=  @client.rif %></td>
+        <td><%=  @client.type_client %></td>
+      </tr>
+  </tbody>
+</table>
